@@ -375,6 +375,6 @@
     <integer name="ifaa_2dfa_support">1</integer>
     <!-- whether support hangup while screen turnning off -->
     <bool name="support_hangup_while_screen_off">true</bool>
-    <!– whether support always on –>
-    <bool name=”support_aod”>true</bool>
+    <!-- whether support always on -->
+    <bool name="support_aod">true</bool>
 </features>
