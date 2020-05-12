@@ -161,7 +161,7 @@
     <!--whether hold blured background for effects preview in camera-->
     <bool name="is_camera_hold_blur_background">true</bool>
     <!--whether support peaking mf in camera-->
-    <bool name="support_camera_peaking_mf">true</bool>
+    <bool name="support_camera_peaking_mf">false</bool>
     <!--whether support gradienter in camera-->
     <bool name="support_camera_gradienter">true</bool>
     <!--whether scan qrcode with lower frequency in camera-->
@@ -203,7 +203,7 @@
     <!--front asd b0:flash b1:hdr b2:motion b3:night-->
     <integer name="camera_supported_front_asd">10</integer>
     <!-- camera is support scene -->
-    <bool name="camera_supported_scene">true</bool>
+    <bool name="camera_supported_scene">false</bool>
     <!-- front hht enhance-->
     <bool name="support_front_hht_enhance">true</bool>
     <!--max cpu freq of the device-->
@@ -312,7 +312,7 @@
     <!--whether front camera support bokeh or not-->
 　  <bool name="support_front_bokeh">true</bool>
     <!--whether support auto mirror in camera-->
-    <bool name="support_auto_mirror">true</bool>
+    <bool name="support_auto_mirror">false</bool>
     <!--whether support auto mirror in camera-->
     <bool name="enhance_beauty_with_hht">true</bool>
     <!--whether support add watermark on bottom left of picture-->
