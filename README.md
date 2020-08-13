@@ -6,3 +6,4 @@
 4. Enabled audio Dolby
 5. Enabled A-GPS roaming support
 6. Added Android 11 beta 1 emoji
+7. MIUI 12 support
