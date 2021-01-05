@@ -47,7 +47,7 @@
     <!--whether the device supports power mode-->
     <bool name="support_power_mode">false</bool>
     <!--whether the device supports dolby-->
-    <bool name="support_dolby">true</bool>
+    <bool name="support_dolby">false</bool>
     <!--whether the device supports screen effect-->
     <bool name="support_screen_effect">true</bool>
     <!--which screen effect options should be show-->
@@ -161,7 +161,7 @@
     <!--whether hold blured background for effects preview in camera-->
     <bool name="is_camera_hold_blur_background">true</bool>
     <!--whether support peaking mf in camera-->
-    <bool name="support_camera_peaking_mf">false</bool>
+    <bool name="support_camera_peaking_mf">true</bool>
     <!--whether support gradienter in camera-->
     <bool name="support_camera_gradienter">true</bool>
     <!--whether scan qrcode with lower frequency in camera-->
@@ -203,7 +203,7 @@
     <!--front asd b0:flash b1:hdr b2:motion b3:night-->
     <integer name="camera_supported_front_asd">10</integer>
     <!-- camera is support scene -->
-    <bool name="camera_supported_scene">false</bool>
+    <bool name="camera_supported_scene">true</bool>
     <!-- front hht enhance-->
     <bool name="support_front_hht_enhance">true</bool>
     <!--max cpu freq of the device-->
@@ -319,7 +319,7 @@
     <bool name="support_picture_watermark">true</bool>
     <!--whether need video stabilizatiion crop-->
     <bool name="need_video_stabilization_crop">true</bool>
-    <bool name="disable_video_stabilization_in_speed_slow_mode">false</bool>
+    <bool name="disable_video_stabilization_in_speed_slow_mode">true</bool>
     <!--whether add algorithm in file name or not-->
     <bool name="enable_algorithm_in_file_suffix">false</bool>
     <!--whether enable face detection in video and funmode or not-->
@@ -365,7 +365,7 @@
     </string-array>
     <!-- whether support multi face input -->
     <bool name="support_multi_face_input">true</bool>
-    <bool name="support_multi_face_input_global">true</bool>											 
+    <bool name="support_multi_face_input_global">true</bool>
     <!-- device head sar value -->
     <float name="device_head_sar">1.130</float>
     <!-- device body sar value -->
@@ -379,5 +379,5 @@
     <!-- whether support hangup while screen turnning off -->
     <bool name="support_hangup_while_screen_off">true</bool>
     <!-- Whether support sunlight mode -->
-    <bool name="config_sunlight_mode_available">true</bool>										  
+    <bool name="config_sunlight_mode_available">true</bool>
 </features>
