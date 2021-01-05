@@ -47,7 +47,7 @@
     <!--whether the device supports power mode-->
     <bool name="support_power_mode">false</bool>
     <!--whether the device supports dolby-->
-    <bool name="support_dolby">false</bool>
+    <bool name="support_dolby">true</bool>
     <!--whether the device supports screen effect-->
     <bool name="support_screen_effect">true</bool>
     <!--which screen effect options should be show-->
